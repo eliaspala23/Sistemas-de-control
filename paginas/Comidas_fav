@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>Comidas Favoritas</h2>
+
+<table>
+  <tr>
+    <th>Alimento</th>
+    <th>Provenencia</th>
+    <th>Imagen</th>
+  </tr>
+  <tr>
+    <td>Asado</td>
+    <td>Argentina</td>
+    <td> <img src="../fotos/asado.png" style="width:150px;height:150px;"></td>
+  </tr>
+  <tr>
+    <td>Tacos</td>
+    <td>Mexico</td>
+    <td><img src="../fotos/tacos.png" style="width:150px;height:150px;"></td>
+  </tr>
+ <tr>
+    <td>Hamburguesa</td>
+    <td>Alemania</td>
+    <td><img src="../fotos/hamburguesa.png" style="width:150px;height:150px;"></td>
+  </tr>
+   </tr>
+ <tr>
+    <td>Pizza</td>
+    <td>Italia</td>
+    <td><img src="../fotos/pizza.png" style="width:150px;height:150px;"></td>
+  </tr>
+  <tr>
+    <td>Cornalitos</td>
+    <td>Argentina</td>
+    <td><img src="../fotos/milanesa.png" style="width:150px;height:150px;"></td>
+  </tr>
+</table>
+<p><a href="../index.html">volver</a></p>
+
+</body>
+</html>
